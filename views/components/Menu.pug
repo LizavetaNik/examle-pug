@@ -1,0 +1,17 @@
+include NavMenu.pug 
+
+div.menu
+  div.blockLogo
+    include icons/logo
+    div.logo-container
+      h3 Dashboard
+      p.version v.01
+  div.blockDachboard
+    include icons/dachboard.pug
+    h4 Dashboard
+  div.blockNavMenu
+    +NavMenu("Product", false)
+    +NavMenu("Customers", true)
+    +NavMenu("Income", false)
+    +NavMenu("Promote", false)
+    +NavMenu("Help", false)

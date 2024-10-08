@@ -1,0 +1,21 @@
+mixin NavMenu(title, isActive)
+  .list-item(class={ active: isActive })
+
+    if title == 'Product'
+      include icons/product.pug
+
+    if title == 'Customers'
+      include icons/customers.pug
+
+    if title == 'Income'
+      include icons/income.pug
+
+    if title == 'Promote'
+      include icons/promote.pug
+
+    if title == 'Help'
+      include icons/help.pug
+
+    div.nav-menu-title
+      .item-title #{title}
+      include icons/arrow.pug 
