@@ -13,14 +13,14 @@ body {
 .container {
   display: flex;
   width: 100%;
-  height: auto;
 }
 
 .main {
-  width: 80%;
+  width: calc(100% - 250px);
   background-color: #eeeeee;
   display: flex;
   justify-content: start;
+  margin-left: 250px;
 }
 
 h1 {

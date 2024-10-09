@@ -1,6 +1,56 @@
-@media (max-width: 820px) {
+:root {
+  --menu-width-desktop: 200px;
+  --menu-width-in-burger: 200px;
+}
+
+@media (max-width: 910px) {
+  .menu {
+    width: var(--menu-width-desktop);
+  }
+
+  .main {
+    width: calc(100% - var(--menu-width-desktop));
+    margin-left: var(--menu-width-desktop);
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .list-item {
+    padding: 5px;
+  }
+
   .main-container {
     margin: 0 2%;
+  }
+
+  .customers-content {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 820px) {
+  .main {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .main {
+    margin-left: 0;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  .menu {
+    width: 200px;
+    left: -250px;
+  }
+
+  .menu.open {
+    left: 0;
   }
 
   .customers-header-name {
@@ -41,27 +91,6 @@
 }
 
 @media (max-width: 768px) {
-  .main-container {
-    margin: 0 1%;
-  }
-
-  .menu {
-    width: 20%;
-    padding: 10px;
-    align-items: center;
-  }
-
-  .block-logo {
-    justify-content: center;
-    margin-bottom: 40px;
-  }
-
-  .block-dachboard {
-    width: 100%;
-    justify-content: center;
-    margin-bottom: 30px;
-  }
-
   .customers-table th,
   .customers-table td {
     padding: 8px;
@@ -74,55 +103,12 @@
   }
 
   .customers-table th:nth-child(4),
-  .customers-table td:nth-child(4),
-  .block-nav-menu .list-item svg,
-  .version {
-    display: none;
-  }
-
-  h1 {
-    font-size: 20px;
-  }
-
-  .block-nav-menu .list-item svg {
+  .customers-table td:nth-child(4) {
     display: none;
   }
 }
 
 @media (max-width: 480px) {
-  .menu {
-    padding: 10px;
-    align-items: center;
-  }
-
-  .block-logo {
-    justify-content: center;
-    margin-bottom: 30px;
-  }
-
-  .block-dachboard {
-    width: 100%;
-    justify-content: center;
-    padding: 5px;
-    margin-bottom: 20px;
-  }
-
-  .version,
-  h4,
-  h5 {
-    font-size: 8px;
-  }
-
-  h1,
-  h2,
-  h3 {
-    font-size: 14px;
-  }
-
-  .block-nav-menu .list-item svg {
-    display: none;
-  }
-
   .customers-table table {
     width: 100%;
     font-size: 12px;

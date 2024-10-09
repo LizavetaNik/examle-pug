@@ -1,6 +1,10 @@
 include NavMenu.pug 
 
-div.menu
+div.burger-menu(id="burgerMenu")
+  div.burger-icon(id="burgerIcon")
+    | &#9776;
+
+div.menu(id="menu")
   div.block-logo
     include icons/logo
     div.logo-container
