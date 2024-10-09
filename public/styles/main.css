@@ -1,0 +1,99 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 70px;
+}
+
+.customers-content {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 25px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.customers-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.customers-header-name {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.customers-header-search {
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+
+.search-container svg {
+  position: absolute;
+  left: 10px;
+  color: gray;
+  width: 20px;
+  height: 20px;
+}
+
+.search-container input {
+  padding-left: 35px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 35px;
+  color: gray;
+}
+
+.search-container input::placeholder {
+  color: gray;
+}
+
+.customers-footer {
+  margin: 30px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-about-pages {
+  color: #b5b7c0;
+  font-size: 14px;
+}
+
+.customers-pages span {
+  color: black;
+  margin-right: 10px;
+}
+
+.customers-pages button {
+  padding: 6px 8px;
+  gap: 10px;
+  background: #f5f5f5;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  margin-right: 10px;
+  color: #404b52;
+}
+
+.customers-pages button.active {
+  background: #5932ea;
+  border: 1px solid #5932ea;
+  color: #eeeeee;
+}

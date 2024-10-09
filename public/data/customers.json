@@ -1,0 +1,74 @@
+[
+  {
+    "customerName": "Ronald Richards",
+    "company": "Adobe",
+    "phoneNumber": "(302) 555-0107",
+    "email": "john@example.com",
+    "country": "USA",
+    "status": "Active"
+  },
+  {
+    "customerName": "Ronald Richards",
+    "company": "Adobe",
+    "phoneNumber": "(302) 555-0107",
+    "email": "john@example.com",
+    "country": "USA",
+    "status": "Inactive"
+  },
+  {
+    "customerName": "Ronald Richards",
+    "company": "Adobe",
+    "phoneNumber": "(302) 555-0107",
+    "email": "john@example.com",
+    "country": "USA",
+    "status": "Inactive"
+  },
+  {
+    "customerName": "Ronald Richards",
+    "company": "Adobe",
+    "phoneNumber": "(302) 555-0107",
+    "email": "john@example.com",
+    "country": "USA",
+    "status": "Active"
+  },
+  {
+    "customerName": "Ronald Richards",
+    "company": "Adobe",
+    "phoneNumber": "(302) 555-0107",
+    "email": "john@example.com",
+    "country": "USA",
+    "status": "Active"
+  },
+  {
+    "customerName": "Ronald Richards",
+    "company": "Adobe",
+    "phoneNumber": "(302) 555-0107",
+    "email": "john@example.com",
+    "country": "USA",
+    "status": "Active"
+  },
+  {
+    "customerName": "Ronald Richards",
+    "company": "Adobe",
+    "phoneNumber": "(302) 555-0107",
+    "email": "john@example.com",
+    "country": "USA",
+    "status": "Inactive"
+  },
+  {
+    "customerName": "Ronald Richards",
+    "company": "Adobe",
+    "phoneNumber": "(302) 555-0107",
+    "email": "john@example.com",
+    "country": "USA",
+    "status": "Active"
+  },
+  {
+    "customerName": "Ronald Richards",
+    "company": "Adobe",
+    "phoneNumber": "(302) 555-0107",
+    "email": "john@example.com",
+    "country": "USA",
+    "status": "Active"
+  }
+]

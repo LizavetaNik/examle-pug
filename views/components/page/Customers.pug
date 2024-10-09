@@ -1,0 +1,32 @@
+.customers-content
+  .customers-header
+    .customers-header-name
+     h3 All Customers
+     h5 Active Members
+    .customers-header-search
+      .search-container
+        include ../icons/search.pug
+        input(type="search", name="Search", placeholder="Search")
+  .customers-table
+    table
+      thead
+        tr
+          th Customer Name
+          th Company
+          th Phone Number
+          th Email
+          th Country
+          th.status-header Status
+      tbody#customers-body
+  .customers-footer
+    span.info-about-pages Showing data 1 to 8 of 256K entries 
+    .customers-pages
+      button <
+      button.active 1
+      button 2
+      button 3
+      button 4
+      span ...
+      button 40
+      button >      
+        

@@ -1,0 +1,60 @@
+.customers-content {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.customers-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.customers-table th {
+  color: #b5b7c0;
+  text-align: left;
+  padding: 12px;
+  font-weight: normal;
+  border-bottom: 1px solid #b5b7c0;
+}
+
+.customers-table td {
+  color: #292d32;
+  padding: 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.customers-table th.status-header {
+  text-align: center;
+}
+
+/* Кнопки статуса */
+.customers-table td button {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.customers-table .status-btn {
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.customers-table .status-btn.active {
+  background-color: rgba(22, 192, 152, 0.38);
+  color: #008767;
+  border: 1px solid #008767;
+  width: 80px;
+}
+
+.customers-table .status-btn.inactive {
+  background-color: #ffc5c5;
+  color: #df0404;
+  border: 1px solid #df0404;
+  width: 80px;
+}
