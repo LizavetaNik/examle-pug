@@ -8,7 +8,7 @@
   padding: 10px;
 }
 
-.blockLogo {
+.block-logo {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -18,7 +18,7 @@
   border-radius: 5px;
 }
 
-.blockDachboard {
+.block-dachboard {
   display: flex;
   align-items: center;
   padding: 10px;
@@ -26,11 +26,11 @@
   margin-bottom: 40px;
 }
 
-.blockDachboard svg {
+.block-dachboard svg {
   color: #9197b3;
 }
 
-.blockNavMenu {
+.block-nav-menu {
   display: flex;
   flex-direction: column;
 }

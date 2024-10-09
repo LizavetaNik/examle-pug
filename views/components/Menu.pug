@@ -1,15 +1,15 @@
 include NavMenu.pug 
 
 div.menu
-  div.blockLogo
+  div.block-logo
     include icons/logo
     div.logo-container
       h1 Dashboard
       p.version v.01
-  div.blockDachboard
+  div.block-dachboard
     include icons/dachboard.pug
     h4 Dashboard
-  div.blockNavMenu
+  div.block-nav-menu
     +NavMenu("Product", false)
     +NavMenu("Customers", true)
     +NavMenu("Income", false)
