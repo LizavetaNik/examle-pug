@@ -1,0 +1,147 @@
+@media (max-width: 820px) {
+  .main-container {
+    margin: 0 2%;
+  }
+
+  .customers-header-name {
+    max-width: 100%;
+  }
+
+  .customers-header-search {
+    margin-top: 5px;
+  }
+
+  .customers-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .customers-pages {
+    width: 100%;
+  }
+
+  .customers-pages button {
+    width: auto;
+    margin-bottom: 5px;
+  }
+
+  .customers-table th,
+  .customers-table td {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .customers-table th.status-header {
+    text-align: center;
+  }
+
+  .customers-table td button {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    margin: 0 1%;
+  }
+
+  .menu {
+    width: 20%;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .block-logo {
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  .block-dachboard {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .customers-table th,
+  .customers-table td {
+    padding: 8px;
+  }
+
+  .customers-table th.status-header,
+  .customers-table td.status-header {
+    width: 100px;
+    text-align: center;
+  }
+
+  .customers-table th:nth-child(4),
+  .customers-table td:nth-child(4),
+  .block-nav-menu .list-item svg,
+  .version {
+    display: none;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .block-nav-menu .list-item svg {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu {
+    padding: 10px;
+    align-items: center;
+  }
+
+  .block-logo {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .block-dachboard {
+    width: 100%;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+
+  .version,
+  h4,
+  h5 {
+    font-size: 8px;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-size: 14px;
+  }
+
+  .block-nav-menu .list-item svg {
+    display: none;
+  }
+
+  .customers-table table {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .customers-table th,
+  .customers-table td {
+    padding: 6px;
+  }
+
+  .customers-table th:nth-child(3),
+  .customers-table td:nth-child(3),
+  .customers-table th:nth-child(5),
+  .customers-table td:nth-child(5) {
+    display: none;
+  }
+
+  .customers-table th.status-header,
+  .customers-table td.status-header {
+    text-align: center;
+  }
+}
