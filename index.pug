@@ -2,17 +2,17 @@ doctype html
 html
   head
     title Pug Project
-    link(rel="stylesheet", href="/styles/styles.css")
-    link(rel="stylesheet", href="/styles/menu.css") 
-    link(rel="stylesheet", href="/styles/navMenu.css") 
-    link(rel="stylesheet", href="/styles/main.css") 
-    link(rel="stylesheet", href="/styles/tableCustomers.css")
-    link(rel="stylesheet", href="/styles/adaptiveMedia.css")
+    link(rel="stylesheet", href="public/styles/styles.css")
+    link(rel="stylesheet", href="public/styles/menu.css") 
+    link(rel="stylesheet", href="public/styles/navMenu.css") 
+    link(rel="stylesheet", href="public/styles/main.css") 
+    link(rel="stylesheet", href="public/styles/tableCustomers.css")
+    link(rel="stylesheet", href="public/styles/adaptiveMedia.css")
   body
     .container
       include views/components/Menu.pug
       include views/components/Main.pug
 
-    script(src="script/menu.js")
-    script(src="script/table.js")
-    script(src="script/burger.js")
+    script(src="public/script/menu.js")
+    script(src="public/script/table.js")
+    script(src="public/script/burger.js")
