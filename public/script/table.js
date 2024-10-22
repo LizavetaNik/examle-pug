@@ -1,27 +1,90 @@
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("/data/customers.json")
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error("Network response was not ok");
-      }
-      return response.json();
-    })
-    .then((data) => {
-      const customersBody = document.getElementById("customers-body");
-      customersBody.innerHTML = "";
+  const data = [
+    {
+      customerName: "Ronald Richards",
+      company: "Adobe",
+      phoneNumber: "(302) 555-0107",
+      email: "john@example.com",
+      country: "USA",
+      status: "Active",
+    },
+    {
+      customerName: "Ronald Richards",
+      company: "Adobe",
+      phoneNumber: "(302) 555-0107",
+      email: "john@example.com",
+      country: "USA",
+      status: "Inactive",
+    },
+    {
+      customerName: "Ronald Richards",
+      company: "Adobe",
+      phoneNumber: "(302) 555-0107",
+      email: "john@example.com",
+      country: "USA",
+      status: "Inactive",
+    },
+    {
+      customerName: "Ronald Richards",
+      company: "Adobe",
+      phoneNumber: "(302) 555-0107",
+      email: "john@example.com",
+      country: "USA",
+      status: "Active",
+    },
+    {
+      customerName: "Ronald Richards",
+      company: "Adobe",
+      phoneNumber: "(302) 555-0107",
+      email: "john@example.com",
+      country: "USA",
+      status: "Active",
+    },
+    {
+      customerName: "Ronald Richards",
+      company: "Adobe",
+      phoneNumber: "(302) 555-0107",
+      email: "john@example.com",
+      country: "USA",
+      status: "Active",
+    },
+    {
+      customerName: "Ronald Richards",
+      company: "Adobe",
+      phoneNumber: "(302) 555-0107",
+      email: "john@example.com",
+      country: "USA",
+      status: "Inactive",
+    },
+    {
+      customerName: "Ronald Richards",
+      company: "Adobe",
+      phoneNumber: "(302) 555-0107",
+      email: "john@example.com",
+      country: "USA",
+      status: "Active",
+    },
+    {
+      customerName: "Ronald Richards",
+      company: "Adobe",
+      phoneNumber: "(302) 555-0107",
+      email: "john@example.com",
+      country: "USA",
+      status: "Active",
+    },
+  ];
 
-      if (!Array.isArray(data)) {
-        console.error("Received data is not an array:", data);
-        return;
-      }
+  const customersBody = document.getElementById("customers-body");
+  customersBody.innerHTML = "";
 
-      data.forEach((customer) => {
-        customersBody.appendChild(createCustomerRow(customer));
-      });
-    })
-    .catch((error) => {
-      console.error("Error fetching customers data:", error);
-    });
+  if (!Array.isArray(data)) {
+    console.error("Received data is not an array:", data);
+    return;
+  }
+
+  data.forEach((customer) => {
+    customersBody.appendChild(createCustomerRow(customer));
+  });
 });
 
 // create tr
